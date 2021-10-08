@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube App I</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            background-color: black;
+        }
+        #nav{
+            width: 100%;
+            height: 80px;
+            background-color: black;
+            border-bottom: 1px solid white;
+            display: flex;
+            flex-direction: row wrap;
+            align-items: center;
+            padding-left: 2%;
+        }
+        .line-box{
+            margin-right: 2%;
+        }
+        .line{
+            margin-top: 5px;
+            width: 20px;
+            height: .5px;
+            background-color: white;
+        }
+        .box-2{
+            width: 45px;
+            height: 25px;
+            background-color: red;
+            float: left;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .text-1{
+            float: left;
+            font-size: 25px;
+            color: white;
+        }
+        #search-box{
+            width: 35%;
+            height: 40px;
+            margin-left: 2%;
+        }
+        #search{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            color: white;
+        }
+        #btn{
+            margin-left: 1%;
+            width: 30px;
+            height: 40px;
+            background-color: black;
+        }
+        #btn>img{
+            width: 30px;
+            height: 40px;
+            background-color: black;
+        }
+        .voice-box{
+            margin-left: 10px;
+            width: 20px;
+            height: 30px;
+            background-color: black;
+        }
+        .right-box{
+            width: 20%;
+            margin-left: 20%;
+        }
+        .bel-box{
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin: 2px;
+            background-color: black;
+        }
+        .content-box{
+            width: 100%;
+            height: 80px;
+            border-bottom: 1px solid white;
+            display: flex;
+            flex-direction: row wrap;
+            align-items: center;
+            padding-left: 2%;
+            margin: auto;
+        }
+        .all-box{
+            width: 100px;
+            border-radius: 20px;
+            background-color: white;
+            text-align: center;
+            padding: 10px ;
+        }
+        .c-box{
+            width: 100px;
+            border-radius: 20px;
+            background-color: gray;
+            text-align: center;
+            padding: 10px ;
+            margin-left: 2%;
+        }
+        .box-left{
+            float: left;
+            width: 10%;
+            border-right: 1px solid white;
+            padding-left: 2%;
+        }
+        .icon{
+            margin-top: 20px;
+            width: 30px;
+            height: 50px;
+            color: white;
+            background-color: black;
+        }
+        .icon>img{
+            width: 100%;
+        }
+        #results{
+            float: left;
+            width: 87%;
+            padding-left: 0.5%;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <div class="line-box">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="box-1">
+            <a href="youtubeApp-I.html">
+                <div class="box-2"><span style="color: white;">&#9654;</span></div>
+                <div class="text-1">YouTube <sup>IN</sup></div>
+            </a>
+        </div>
+        <div id="search-box">
+            <input type="text" id="search" placeholder="Search">
+        </div>
+        
+        <button id="btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0-Cq3rdNBd8aYOZEwpiGLg2MXUzHFNQrvw&usqp=CAU"></button> 
+       
+        <img class="voice-box" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_-8U150NWFwU4_n6QHrKIG8BMq2OeZc6RZA&usqp=CAU">
+        
+        <div class="right-box">
+            <img class="bel-box" style="border-radius: 40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZfCZ2svHviRvMcsTnU2dpNWraCFkrXzMrDw&usqp=CAU">
+            <img class="bel-box" style="border-radius: 40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2yceUMnP7U5GQCnj23_jdrjS7uIU7ymbdig&usqp=CAU">
+            <img class="bel-box" style="border-radius: 40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxjcy_x6QArIUHjMQYTm4gH3zk6r5COtCmA&usqp=CAU">
+            <img class="bel-box" style="border-radius: 40px" src="https://yt3.ggpht.com/yti/APfAmoFGnLKO2xvEy2S3kcvJEb4wr28Gng0z3Z6uivs_gQ=s88-c-k-c0x00ffffff-no-rj-mo">
+        </div>
+    </nav>
+    <div class="content-box">
+          <div class="all-box">
+              All
+          </div>
+          <div class="c-box">Music</div>
+          <div class="c-box">Python</div>
+          <div class="c-box">JavaScript</div>
+          <div class="c-box">C++</div>
+          <div class="c-box">C</div>
+          <div class="c-box">HTML</div>
+          <div class="c-box">CSS</div>
+          <div class="c-box">Java</div>
+
+    </div>
+    <div class="box-left">
+        <div class="icon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhcmYaHfQuqDlazS3xwhvaNkUAX6RpabdDA&usqp=CAU">
+            Home
+        </div>
+        <div class="icon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnc8n86cR7zP_9JEf4dSvwyBQEkC_pwc4H6A&usqp=CAU">
+            Explore
+        </div>
+        <div class="icon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSNv7HLvsVnbxYekyABCYqUjEPZo-k7Eng5Q&usqp=CAU" alt="">
+            Subscriptions
+        </div>
+        <div class="icon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cSyFLeQQz9WmGYdCOf_hgyb1BSR7DENwhQ&usqp=CAU" alt="">
+            Library
+        </div>
+    </div>
+    <div id="results"></div>
+    <script type="text/javaScript">
+       const types = {
+            video: "youtube#video",
+            channel: "youtube#channel"
+        }
+        Object.freeze(types)
+
+        function youtubeVideos(){
+            return fetch(`https://youtube.googleapis.com/youtube/v3/search?q=javaScript&maxResults=20&key=AIzaSyDJgMUF85Zi1t4EWmOVcnc3eSjW1GnLc9c`)
+            .then(res => res.json())
+            
+        }
+        
+        async function showVideos(){
+            const resContainer = document.getElementById("results");
+            resContainer.innerHTML = null;
+            try {
+                const {
+                    items: results
+                } = await youtubeVideos()
+                  
+
+                for (let video of results) {
+                    // var video = results[i];
+                    const card = createYoutubeVideoCards(video);
+                    
+                    resContainer.append(card)
+                    
+                }
+            } catch (err) {
+                //handle error
+            }
+            
+        }
+        
+        showVideos();
+
+        window.addEventListener("load", function () {
+            const btn = document.getElementById("btn");
+            btn.addEventListener("click",()=>handleSearch());
+        })
+
+        function getYoutubeSearchResults(q){
+            return fetch(`https://youtube.googleapis.com/youtube/v3/search?q=${q}&maxResults=20&key=AIzaSyDJgMUF85Zi1t4EWmOVcnc3eSjW1GnLc9c`)
+            .then(res => res.json())
+        }
+
+        function createYoutubeVideoCards(data) {
+            const div = document.createElement("div");
+            div.style.width= 23.5 +"%";
+            // div.style.height= 250 +"px";
+            div.style.margin = "0.5%";
+            div.style.float = "left";
+            div.style.border = "1px solid white";
+
+            //* ignore channel
+            if (data.id.kind === types.channel) {
+                return false
+            }
+            div.innerHTML= `<iframe width="100%"
+                            height="100%" 
+                            src="https://www.youtube.com/embed/${data.id.videoId}" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; 
+                            autoplay; clipboard-write; 
+                            encrypted-media; 
+                            gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>`
+            return div
+        }
+
+        async function handleSearch() {
+            const search = document.getElementById("search").value;
+            const resContainer = document.getElementById("results");
+            resContainer.innerHTML = null;
+            try {
+                const {
+                    items: results
+                } = await getYoutubeSearchResults(search)
+                  
+                console.log(results);
+
+                
+                for (let video of results) {
+                    // var video = results[i];
+                    const card = createYoutubeVideoCards(video);
+                    
+                    resContainer.append(card)
+                    
+                }
+            } catch (err) {
+                //handle error
+            }
+        }
+    </script>
+</body>
+</html>
